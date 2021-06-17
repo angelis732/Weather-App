@@ -1,0 +1,110 @@
+/*App*/
+body {
+  background-image: url("../img/playa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #A9CCE3 ;
+}
+.App {
+  text-align: center;
+}
+
+/*Component Nav*/
+#logoW {
+  margin-right: 20px;
+}
+
+.aboutLink {
+  color: white;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+/*componente Cards*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Componente Card*/
+.card {
+  margin: 2%;
+  width: 18rem;
+  background: linear-gradient(to bottom, #2980B9, lightyellow);
+  box-shadow: 10px 10px 5px #465b73;
+
+}
+
+.card-title {
+  font-weight: bolder;
+  padding-bottom: 5%;
+  color: navajowhite;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.elementCard {
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+/*Component SearchBar*/
+
+.search{
+  margin: 2%;
+}
+.agregar{
+  height: 2em;
+  background-color: #465b73;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+
+  .card {
+    margin: 5%;
+    width: 18rem;
+    background: linear-gradient(to bottom, dodgerblue, lightyellow);
+    height: 200px;
+
+  }
+
+  .cardInfo {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+
+  .card-title {
+    font-weight: bolder;
+    color: #465b73;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .row {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-top: 2%;
+  }
+}
+
+
+
